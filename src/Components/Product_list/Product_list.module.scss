@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter Tight", sans-serif;
+}
+
+.productList {
+    background-color: #fff;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+    &__item {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        gap: 30px;
+        justify-items: center;
+        justify-content: center;
+        margin-top: 96px;
+    }
+
+    &__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 48px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    &__description {
+        max-width: 706px;
+        color: #00000099;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 24px;
+    }
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}

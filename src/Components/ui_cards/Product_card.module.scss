@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.productCard {
+    background-color: #E7F9FD;
+    padding: 16px 16px 32px 16px;
+    border-radius: 30px;
+
+    &__title {
+        max-width: 352px;
+        margin-top: 24px;
+    }
+
+    &__img {
+        border-radius: 15px;
+    }
+
+    &__time {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__type {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__info{
+        display: flex;
+        gap: 24px;
+        margin-top: 27px;
+    }
+}
