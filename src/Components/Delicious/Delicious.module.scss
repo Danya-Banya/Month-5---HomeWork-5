@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.delicious {
+    margin-top: 57px;
+    &__title {
+        color: #000000;
+        font-size: 48px;
+        font-family: "Inter Tight";
+        max-width: 570px;
+        font-weight: 600;
+    }
+    &__item{
+        display: grid;
+        margin-top: 80px;
+        grid-template-columns: auto auto auto auto;
+        justify-items: center;
+    }
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}

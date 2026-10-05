@@ -1,0 +1,14 @@
+.productCard {
+    background: linear-gradient(180deg,
+            #ffffff 0%,
+            #708246 1450%);
+    padding: 40px 40px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 180px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    cursor: pointer;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Product_card.module.scss";
-import timer from "../../images/Timer.svg";
-import forkKnife from "../../images/ForkKnife.svg";
+import timer from "../../../images/Timer.svg";
+import forkKnife from "../../../images/ForkKnife.svg";
 
 export default function Product_card({ title, time, type, imageSrc }) {
   return (
@@ -12,7 +12,7 @@ export default function Product_card({ title, time, type, imageSrc }) {
         <div className={styles.productCard__info}>
           <div className={styles.productCard__time}>
             <img src={timer} alt="" />
-            <span className={styles.productCard__timeSpan}>{time}</span>
+            <span className={styles.productCard__timeSpan}>{time} Minutes</span>
           </div>
           <div className={styles.productCard__type}>
             <img src={forkKnife} alt="Fork, knife" />

@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "./Product_list.module.scss";
-import Product_card from "../ui_cards/Product_card";
+import Product_card from "../ui_cards/Product_cards/Product_card.jsx";
 import { cardValue } from "../../Untils.js";
 
 export default function Product_list() {
   return (
     <>
       <section className={styles.productList}>
-        <div className={styles.container}>
+        <div className="container">
           <div className={styles.productList__top}>
             {" "}
             <h1 className={styles.productList__title}>
